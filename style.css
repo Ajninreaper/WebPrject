@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+/* ============================== 
+     Global Style
+================================== */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;   
+}
+
+body{
+    color: #4c6085;
+    
+}
+
+header{
+    background-color:#36f1cd
+   
+}
+
+/* ============================== 
+    Nav Bar
+================================== */
+nav{
+    padding: 20px 20px;
+    width: 100vw;
+    background-color:#36f1cd
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+nav li:hover{
+
+    text-decoration: underline;
+}
+
+/* ============================== 
+    Containe-1
+================================== */
+
+.container-1{
+    position: absolute;
+    /* right: 0; */
+    width:100vw;
+    min-height:50vh;
+    padding: 50px;
+    /* background: #111; */
+    z-index: 2;
+    
+    
+}
+
+
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    z-index: 10;
+    /* width: 100vw; */
+    /* background-color: red;
+    border: 5px solid red; */
+}
+
+.header{
+    margin: 50px;
+}
+.header h1{
+    font-size: 5em;
+}
+
+.header-video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 50vh;
+    object-fit:cover;
+    /* opacity: 0.8; */
+
+}
+
+/* .overlay{
+
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#4C6085;
+    mix-blend-mode: overlay;
+    
+} */
+
+.text-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:relative;
+    z-index: 10; 
+    width: 500px;
+    text-align: right;
+}
+
+.text-message h2{
+    text-align: right;
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.text-message h3{
+    text-align: right;
+    font-size: 2em;  
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.text p{
+    text-align: right;
+    font-size: 1.1em;  
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 500px;
+   
+}
+
+/* ============================== 
+    Container-2
+================================== */
+.container-2{
+    margin-top: 25%;
+    width: 100vw;
+    min-height: 50vh;
+    display: flex;
+    justify-content:flex-start;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    background-color:#36f1cd ;
+    padding: 50px 50px;
+}
+
+.bio-section{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    margin: 20px 20px;
+    height: 50vh;
+    width: 100vw;
+    
+}
+
+.bio-section p{
+    margin-left: 50px;
+}
+
+.bio{
+    margin-left: 200px;
+    height: 100px;
+    width: 700px;
+    
+}
+
+.technologies{
+    margin-top: 5px;
+    margin-left:300px;
+}
+
+
+
+.social-icons{
+    display: flex;
+    flex-direction:row-reverse;
+    
+     
+}
+
+.social{
+    margin: 20px 20px;
+    
+}
+
+/* ============================== 
+    Feedback-Section
+================================== */
+
+.feedback-section{
+    display: flex;
+    justify-content: flex-end;
+    height: 50vh;
+    width: 100vw;
+    padding: 100px 100px;
+    background-color: #36f1cd;
+
+
+}
+
+
+
+/* ============================== 
+    Footer-Section
+================================== */
+
+.footer-section{
+    position: sticky;
+    width: 100vw;
+    height: 20vh;
+    width: 100vw;
+    /* margin-top:100px; */
+    background-color: #36f1cd;
+
+}
+
+
+/* ============================== 
+    Misc  styles
+================================== */
+button{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10%;
+    background-color:#39a0ed ;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+

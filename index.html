@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L10HandsOn</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+        <nav>
+            <img class="logo" src="Images/LogoMock2.png">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bio</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+   
+    <div id="Top" class="container-1">
+        <div class="header-box">
+            <div class="header">
+                <h1>Malik Burton</h1>
+                <p>Front-End Developer|<span>Woz-U Student</span></p>
+            </div>
+            <div class="text-message">
+                <h2>Believe in yourself</h2>
+                <h3>Never Stop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti enim, laboriosam possimus molestias mollitia eligendi repellat eveniet neque dolor facilis delectus, voluptas obcaecati consequatur aut laborum alias ipsam incidunt vero.</p>
+            </div>
+        </div>
+         <div class="overlay"></div> 
+        <video class="header-video" src="images/hero-vid.mp4" muted loop autoplay></video> 
+    </div>
+    <br>
+        <div id="Middle" class="container-2">
+            <div class="bio-section">
+                    <img src="Images/Profile-Pic.png">
+                 <div class="bio">
+                    <br>
+                    <br>
+                    <p>Welcome to my page I'm a Front-End Developer/. I'm Father, artist, designer; I enjoy spending time with my family, sketching, playing video games and developing my development skills. This site is a minor showcase of what you can do if you put your mind to. Design and layout Here is a list of this technologies used for this site:</p>
+                    <ul class="technologies">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>JQuery</li>
+                    </ul>
+                    <p>Here is a list of my Github Repositories. Please have a look</p>
+                    <br>
+                    <button id = "button" onclick="gitInfo()">Git Repositories</button>
+                    <br>
+                    <ol id="gitHere">
+                        
+                    </ol>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="https://www.facebook.com/AjninGentlemenSwaqq" target="_blank"><img class="social" src="Images/facebook2.png" alt="facebook"></a></li>
+                        <li><a href="https://github.com/Ajninreaper" target="_blank"><img Class="social"src="Images/github2.png" alt="github"></a></li>
+                        <li><a href="https://www.linkedin.com/in/malik-burton/" target="_blank"><img class="social"src="Images/linkedin2.png" alt="linkedin"></a></li>  
+                </ul>
+                </div>
+            </div>
+        </div>      
+        <div id="Bottom" class="feedback-section">
+            <form id="feedback">
+                <label for="firstname"></label>
+                <input type="name" id="firstName" placeholder="First Name">
+                <label for="lastName"></label>
+                <input type="name" id="lastName" placeholder="Last Name">
+                <br>
+                <br>
+                <label for="feedback"></label>
+                <textarea name="feedback" id="feedback" rows="4" cols="50"></textarea>
+                <br>
+                <br>
+                <button type="button">Submit</button>
+            </form>     
+    </div>
+    <div class="footer-section">
+        <footer>
+                <h2>Contact Me</h2>
+                <p>email: malikb28@gmail.com</p>
+                <p>Send me a email<img src="Images/telegram2.png"></p>
+        </footer>
+    </div>
+</body>
+</html>
